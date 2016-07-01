@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+body {
+    font: 14px/1.5 arial, "微软雅黑", "Hiragino Sans GB", sans-serif;
+    color: #303030;
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 16px
+    }
+}
+
+li {
+    list-style: none;
+}
+
+/*定位*/
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+
+/*清除浮动*/
+.clear_fix::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+
+}
+
+.inner {
+    position: relative;
+}
+
+/*不透明度*/
+.opac0 {
+    opacity: 0;
+}
+
+.opac1 {
+    opacity: 1;
+}
+
+.up {
+    position: fixed;
+    /* bottom: 0.1rem;*/
+    bottom: 0px;
+    padding-top: 0.1rem;
+    width: 1.5rem;
+    text-align: center;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.up_bg {
+    background: url("../img/up_bg1.png") center no-repeat;
+    background-size: contain;
+}
+
+/*section0*/
+/*去掉section0的垂直居中*/
+.section0 .fp-tableCell {
+    vertical-align: inherit;
+}
+
+.section0 .inner {
+    padding-top: 1.2rem;
+    width: 5rem;
+    margin: -0.5rem auto;
+}
+
+.section0_child {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+
+}
+
+.section0_top {
+    width: 6.77rem;
+    margin: 0.36rem auto 0;
+}
+
+.section0 .inner-text {
+    text-align: center;
+    background: url("../img/section0_img3.png") center no-repeat;
+    background-size: 7.5rem 5.74rem;
+    width: 7.5rem;
+    height: 5.74rem;
+    margin: 0.45rem auto 0;
+
+}
+
+.inner-text p {
+    font-size: 0.26rem;
+    color: #f9fbf5;
+    line-height: 0.44rem;
+
+}
+
+/*
+#open {
+    margin-top: -0.6rem;
+}*/
+
+#section0_bottom {
+    position: absolute;
+    width: 100%;
+    height: 1.85rem;
+    bottom: 0;
+    text-align: center;
+    background: url("../img/section0_img4.png") center no-repeat;
+    background-size: contain;
+}
+
+.section_birds {
+    position: absolute;
+    width: 0.72rem;
+    left: 39%;
+    top: 0;
+}
+
+/*section1*/
+.section1 {
+    text-align: center;
+    position: relative;
+}
+
+.right_img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.section_inner {
+    width: 7rem;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.section3 .inner_text {
+    padding: 0.26rem 0.12rem;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 0.2rem;
+    background-color: #8fc42c;
+    line-height: 0.4rem;
+    text-align: left;
+    float: left;
+    border-radius: 5px;
+    height: 1.94rem;
+}
+
+.section1 .section1_img1 {
+    height: 10.8rem;
+    position: relative;
+    top: 0rem;
+
+}
+
+.text {
+    position: absolute;
+    width: 2rem;
+    top: 1.2rem;
+    left: 0.9rem;
+    font-size: 0.5rem;
+    color: #ffffff;
+}
+
+/*section2*/
+.section2 {
+    text-align: center;
+}
+
+.section2_top {
+    position: relative;
+    top: 0;
+
+}
+
+.section2_top_text {
+    position: absolute;
+    top: 0.3rem;
+    color: #ffffff;
+    font-size: 0.7rem;
+    left: 0;
+    right: 0;
+
+}
+
+.section2 .inner {
+    width: 6.7rem;
+    height: 7rem;
+}
+
+.section2_imgItem {
+    position: absolute;
+}
+
+.section2_imgItem p {
+    font-size: 0.04rem;
+}
+
+.Magnify_text {
+    position: absolute;
+    top: 0.4rem;
+    right: 0.7rem;
+
+}
+.Magnify_text p{
+    font-size: 0.5rem;
+}
+
+
+
+/*section3*/
+.section3 {
+    text-align: center;
+    background: url("../img/section4_bg.png") center no-repeat;
+    background-size: contain;
+}
+
+.imgList {
+    border: 3px solid #fcac39;
+    width: 6rem;
+    margin: 0 auto;
+}
+
+.imgList li {
+    height: 1.45rem;
+}
+
+.imgList li img {
+    display: inline-block;
+    width: 1.97rem;
+    height: 1.45rem;
+}
+
+/*section4*/
+.section4 {
+    text-align: center;
+
+}
+
+.section4 .line {
+    border-radius: 5px;
+}
+
+.orange {
+    border-right: 4px solid #fcac39;
+    border-bottom: 4px solid #fcac39;
+    width: 1.6rem;
+    height: 1.2rem;
+}
+
+.blue {
+    width: 1.4rem;
+    height: 1.1rem;
+    border: 4px solid #61c5e9;
+    top: 0.75rem;
+    right: 0rem;
+}
+
+.section4 .inner, .section5 .inner {
+    font-size: 0.36rem;
+}
+
+/*section5*/
+.section5 {
+    text-align: center;
+    background: url("../img/section6_bg.png") center no-repeat;
+    background-size: contain;
+}
+
+/*section6*/
+.section6 {
+    text-align: center;
+}
+
+.section6 .inner {
+    width: 7.5rem;
+    height: 9.2rem;
+    margin: 0 auto;
+    position: relative;
+    font-size: 0.22rem;
+}
+
+/*section7*/
+
+.section7 .fp-tableCell {
+    vertical-align: inherit;
+}
+
+/*section8*/
+.section8 .inner {
+    width: 7rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*section9*/
+.section9 {
+    text-align: center;
+    background: url("../img/section10_bg.png") center no-repeat;
+    background-size: cover;
+}
+
+.section9 .inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/*section10*/
+.section10 {
+    text-align: center;
+    background: url("../img/section11_bg.png") no-repeat center bottom;
+    background-size: cover;
+}
+
+.section10 .inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/*section11*/
+.section11 {
+    text-align: center;
+}
+

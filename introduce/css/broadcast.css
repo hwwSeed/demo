@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 14px/1.5 arial, "微软雅黑", "Hiragino Sans GB", sans-serif;
+    color: #303030;
+}
+
+a {
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+li {
+    list-style: none;
+}
+
+.clear_fix::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+
+}
+
+/*.wrapper{
+    background-color: #ededed;
+    padding-bottom: 0.3rem;
+
+}*/
+
+.module {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.inner {
+    width: 6rem;
+    margin: 0 auto;
+    padding: 0.37rem 0 0.3rem 0;
+    position: relative;
+    clear: both;
+}
+
+.inner li {
+    display: inline-block;
+}
+
+.mask {
+    width: 1.65rem;
+    height: 1.3rem;
+    background-color: #000000;
+    opacity: 0.35;
+    position: relative;
+    transition: opacity 0.25s ease-out 0s
+}
+
+.mask-top {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin: -0.3rem auto 0;
+}
+
+.module-item {
+    position: relative;
+    margin: 0 auto;
+}
+
+.first-item {
+    float: left;
+}
+
+.last-item {
+    float: right;
+}
+
+.center-item {
+    clear: both;
+    margin: 0 auto;
+}
+
+.module-title {
+    font-size: 0.3rem;
+    font-weight: normal;
+    color: #9c9c9c;
+    background-color: #ededed;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    padding-left: 0.4rem;
+    text-align: left;
+}
+
+.text {
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    color: #212121;
+    margin-top: 0.2rem;
+
+}
+
+#live .module-item, #section3 .module-item {
+    width: 1.64rem;
+    height: 1.3rem;
+
+}
+
+/*节目直播*/
+
+#live li:hover .mask {
+    opacity: 0.5;
+}
+
+#live .module-item1 {
+    background: url("../image/live1.png") no-repeat center;
+    background-size: contain;
+}
+
+#live .module-item2 {
+    background: url("../image/live2.png") no-repeat center;
+    background-size: contain;
+
+}
+
+#live .module-item3 {
+    background: url("../image/live3.png") no-repeat center;
+    background-size: contain;
+}
+
+/*互动服务*/
+#service .module-item {
+    position: relative;
+    width: 1.12rem;
+    height: 1.12rem;
+    margin: 0 auto;
+}
+
+#service .text {
+    margin-top: 0.3rem;
+}
+
+/**/
+
+/*section3微波LIVE文字*/
+#section3 .mask-top, #section4 .mask-top {
+    font-size: 0.24rem;
+    color: #ffffff;
+    margin: -0.15rem auto 0;
+}
+
+#section3 li:hover .mask {
+    opacity: 0.5;
+}
+
+#section3 .module-item1 {
+    background: url("../image/section3_img1.png") no-repeat center;
+    background-size: contain;
+}
+
+#section3 .module-item2 {
+    background: url("../image/section3_img2.png") no-repeat center;
+    background-size: contain;
+
+}
+
+#section3 .module-item3 {
+    background: url("../image/section3_img3.png") no-repeat center;
+    background-size: contain;
+}
+
+#section3 .module-item4 {
+    background: url("../image/section4_img1.png") no-repeat center;
+    background-size: contain;
+}
+
+#section3 li:hover .mask {
+    opacity: 0.5;
+}
