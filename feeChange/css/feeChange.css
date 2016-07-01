@@ -1,0 +1,509 @@
+.mainContainer {
+    width: 7.5rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mainContainer .footer_claim {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+.mainContainer .footer_claim p {
+    position: absolute;
+    bottom: 0.2rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #b2b2b2;
+    font-size: 0.26rem;
+    text-align: center;
+}
+
+/*宣传页*/
+#propagandaContainer {
+    position: relative;
+    height: 12.1rem;
+    background: url("../img/propaganda_bg.png") center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#propagandaContainer .check_btn {
+    width: 7rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.28rem;
+    margin: 0 auto;
+    font-size: 0.3rem;
+    color: #61510b;
+    padding: 0.3rem 0;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+/*是否出过险*/
+#isRiskContainer .header {
+    height: 4.03rem;
+    background: url("../img/risk_bg.png") center no-repeat;
+    background-size: cover;
+}
+
+#isRiskContainer .header .fee_intro {
+    width: 6.3rem;
+    margin: 0 auto;
+    padding: 0.2rem 0 1rem 0;
+}
+
+.fee_intro .fee_title {
+    color: #333333;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+
+.fee_intro .fee_txt {
+    font-size: 0.28rem;
+    color: #999999;
+    line-height: 0.6rem;
+}
+
+#isRiskContainer {
+    padding-bottom: 1.3rem;
+}
+
+#isRiskContainer .container .a_link {
+    display: block;
+    width: 7rem;
+    margin: 0 auto;
+    border-radius: 14px;
+    padding: 0.22rem 0;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #ffffff;
+    background-color: #ff8903;
+}
+
+#isRiskContainer .container .img_inner {
+    width: 7rem;
+    margin: 0.5rem auto;
+}
+
+#isRiskContainer .container .img_inner {
+}
+
+#isRiskContainer .container .img_inner .img_item img {
+    width: 3rem;
+}
+
+#isRiskContainer .container .img_inner .img_item p {
+    font-size: 0.3rem;
+    color: #76620d;
+    margin-top: 0.3rem;
+    text-align: center;
+}
+
+/*未出险*/
+#noRiskContainer {
+    background: url("../img/norisk_bg.png") center repeat-y;
+    background-size: cover;
+    padding: 1.9rem 0 4.8rem 0;
+}
+
+#noRiskContainer .container {
+    width: 6.7rem;
+    margin: 0 auto;
+}
+
+#noRiskContainer .container .a_choice {
+    display: block;
+    width: 6.7rem;
+    height: 2.06rem;
+    background: url("../img/norisk_chioce_bg.png") center no-repeat;
+    background-size: cover;
+    font-size: 0.4rem;
+    color: #fff3d5;
+    text-align: center;
+    line-height: 1.7rem;
+    font-weight: bold;
+}
+
+#noRiskContainer .container .choice__inner {
+    width: 6.2rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+#noRiskContainer .container .choice__inner ul {
+
+    /*  width: 6.4rem;*/
+    /* margin: 0 0 0 -0.5rem;*/
+    margin: 0.35rem 0.35rem 0.35rem 0.44rem;
+
+}
+
+.choice__inner ul li {
+    display: inline-block;
+    overflow: hidden;
+    width: 5.3rem;
+    margin: 0.3rem auto;
+
+}
+
+.choice__inner ul li .choice_item {
+    width: 2.1rem;
+    padding: 0.1rem 0;
+    cursor: pointer;
+}
+
+.choice__inner  .choice_icon {
+    display: inline-block;
+    width: 0.45rem;
+    height: 0.4rem;
+    background: url("../img/norisk_unck.png") center no-repeat;
+    background-size: cover;
+    /* padding: 0.1rem 0 0.1rem 0.2rem;*/
+    vertical-align: sub;
+
+}
+
+.choice__inner .choice_icon.checked {
+    width: 0.45rem;
+    height: 0.4rem;
+    background: url("../img/norisk_cheked.png") center no-repeat;
+    background-size: cover;
+    vertical-align: sub;
+
+}
+
+.choice__inner .risk_txt {
+    color: #ff8903;
+    font-size: 0.3rem;
+    margin-left: 0.2rem;
+}
+
+/*出险次数和新车页面*/
+/*出险次数和新车页面公共样式************************/
+#priceContainer, #carContainer {
+    background: url("../img/price_bg.png") center no-repeat;
+    background-size: cover;
+}
+
+.mainContainer .searchWrapper {
+    text-align: center;
+    width: 6.9rem;
+    margin: 0 auto;
+    padding: 0.9rem 0 7.6rem 0;
+}
+
+.mainContainer .searchWrapper h5 {
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+.mainContainer .searchWrapper .search_btn {
+    display: block;
+    font-size: 0.32rem;
+    background-color: #eb6100;
+    border-radius: 4px;
+    padding: 0.28rem 0;
+    color: #ffffff;
+    margin-top: 0.56rem;
+}
+
+#priceContainer .footer_claim, #carContainer .footer_claim {
+    height: 3rem;
+    background: url("../img/fee_footer_bg.png") top no-repeat;
+    background-size: 7.5rem 1.8rem;
+}
+
+/*出险次数和新车页面公共样式结束************************/
+#priceContainer .searchWrapper .input_price {
+    width: 6.9rem;
+    font-size: 0.34rem;
+    color: #eb6100;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 0.25rem 0;
+    margin-top: 0.56rem;
+    background: url("../img/price_bg.png") center no-repeat;
+    background-size: cover;
+}
+
+#carContainer .searchWrapper {
+    padding: 0.9rem 0 6.4rem 0;
+}
+
+#carContainer .searchWrapper .car_price {
+    font-size: 0.32rem;
+    margin-top: 0.6rem;
+}
+
+#carContainer .searchWrapper .car_price span {
+    font-size: 0.48rem;
+    color: #eb6100;
+    font-weight: bold;
+}
+
+#carContainer .searchWrapper .car_price span i {
+    font-size: 0.24rem;
+    font-style: normal;
+    font-weight: 100;
+}
+
+#carContainer .searchWrapper .price_process {
+    position: relative;
+    background-color: #ffc02b;
+    padding: 0.3rem 0;
+    margin-top: 0.33rem;
+    border-radius: 6px;
+
+}
+
+#carContainer .searchWrapper .price_process .process_bar {
+    position: relative;
+    width: 6.7rem;
+    height: 0.16rem;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: -webkit-linear-gradient(left, #ffc300, #f44124); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #ffc300, #f44124); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #ffc300, #f44124); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #ffc300, #f44124); /* 标准的语法（必须放在最后） */
+}
+
+.price_process .process_bar img {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.2rem;
+}
+
+.searchWrapper .price_process .price_range_wrapper {
+    width: 6.7rem;
+    margin: 0 auto;
+    padding-top: 0.05rem;
+}
+
+.searchWrapper .price_process .price_range_wrapper .price_range {
+    font-size: 0.22rem;
+    color: #333333;
+}
+
+/*费改小测试*/
+#feeTestContainer {
+    background: url("../img/price_bg.png") center no-repeat;
+    background-size: cover;
+}
+
+#feeTestContainer .feePrice_wrapper {
+    width: 6.27rem;
+    margin: 0 auto;
+}
+
+#feeTestContainer .feePrice_wrapper .table_title {
+    padding: 0.35rem;
+    font-size: 0.32rem;
+    color: #333333;
+}
+
+#feeTestContainer .feePrice_wrapper .table_title .month {
+    margin-top: 0.05rem;
+}
+
+.feePrice_wrapper .table_title .vs {
+    color: #ffbc3f;
+    font-size: 0.5rem;
+    font-weight: bold;
+    left: 50%;
+    margin-left: 0.7rem;
+}
+
+.feePrice_wrapper .fee_table {
+    width: 6.27rem;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+    text-align: center;
+    font-family: "微软雅黑 Light";
+}
+
+.feePrice_wrapper .fee_table:first-child(tr) {
+    border-top: none;
+
+}
+
+.feePrice_wrapper .fee_table tr {
+    border-top: 1px solid #cccccc;
+}
+
+.feePrice_wrapper .fee_table tr td {
+    padding: 0.2rem 0;
+}
+
+.feePrice_wrapper .fee_table tr .fee_before, .feePrice_wrapper .fee_table tr .fee_after {
+    font-size: 0.3rem;
+    color: #ffbc3f;
+    font-weight: bold;
+}
+
+.feePrice_wrapper .fee_table tr.title .fee_before, .feePrice_wrapper .fee_table tr.title .fee_after {
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+
+.feePrice_wrapper .fee_table tr.title .company_name {
+    font-size: 0.24rem;
+}
+
+.feePrice_wrapper .fee_table tr .company_name {
+    font-size: 0.22rem;
+    color: #333333;
+}
+
+#feeTestContainer .container {
+    margin-top: 0.25rem;
+    background-color: #fffbea;
+
+}
+
+#feeTestContainer .container .inner {
+    width: 7.2rem;
+    margin: 0 auto;
+    padding: 0.3rem 0;
+}
+
+#feeTestContainer .container h3 {
+    color: #333333;
+    font-size: 0.32rem;
+}
+
+#feeTestContainer .container .test_result {
+    margin-top: 0.2rem;
+}
+
+#feeTestContainer .container .test_result p {
+    font-size: 0.28rem;
+    color: #666;
+    line-height: 0.6rem;
+}
+
+#feeTestContainer .container .test_result p span {
+    color: #ffbc3f;
+    font-weight: bold;
+}
+
+#feeTestContainer .container .public {
+    width: 6.7rem;
+    margin: 0.15rem auto 0;
+    border: 1px solid #ebebeb;
+    position: relative;
+
+}
+
+#feeTestContainer .container .public img {
+    position: absolute;
+    width: 1.27rem;
+    top: -0.5rem;
+    right: -0.4rem;
+    z-index: 99;
+    background-color: #fffbea;
+}
+
+#feeTestContainer .container .public .public_txt {
+    padding: 0.15rem;
+}
+
+#feeTestContainer .container .public .public_txt p {
+    font-size: 0.22rem;
+    color: #999999;
+    line-height: 0.6rem;
+}
+#feeTestContainer .container .public .public_txt p span{
+    font-size: 0.3rem;
+    font-weight: bold
+}
+#feeTestContainer .bar {
+    background-color: #f3eed9;
+    height: 0.1rem;
+}
+
+#feeTestContainer .footer_claim {
+    width: 2.6rem;
+    position: relative;
+    text-align: center;
+    padding: 0.2rem 0;
+}
+
+#feeTestContainer .footer_claim span {
+    display: block;
+    font-size: 0.24rem;
+    color: #333333;
+    margin: 0.24rem 0 0 0.15rem;
+}
+/*是否违章*/
+#isPeccancyContainer .header{
+    height: 3.8rem;
+    background: url("../img/peccancy_topImg.png") center no-repeat;
+    background-size: cover;
+}
+.header .peccancy_intro{
+    width: 6.84rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.header .peccancy_intro .peccancy_title{
+    font-size: 0.36rem;
+    color: #ffffff;
+    font-weight: bolder;
+   padding-top: 0.62rem;
+}
+.header .peccancy_intro .peccancy_txt{
+    font-size: 0.28rem;
+    color: #e6e6e6;
+    margin-top: 0.24rem;
+}
+#isPeccancyContainer .container{
+    margin: 0.48rem auto 0;
+    padding-bottom: 0.95rem;
+    width: 6.9rem;
+}
+#isPeccancyContainer .container .a_choice{
+    display: block;
+    font-size: 0.32rem;
+    color: #333333;
+    text-align: center;
+    padding-bottom: 0.6rem;
+}
+#isPeccancyContainer .container .choice__inner{
+    width: 3.5rem;
+    margin: 0 auto;
+}
+#isPeccancyContainer .container .choice__inner .choice_item {
+    margin-bottom: 0.45rem;
+}
+#isPeccancyContainer .container  .not_choice{
+    color: #cccccc;
+    font-size: 0.26rem;
+    text-align: center;
+    padding: 0.88rem  0 0.26rem 0;
+}
+#isPeccancyContainer .container    .search_btn{
+    display: block;
+    width: 6.9rem;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 0.26rem 0;
+    text-align: center;
+    font-size: 0.30rem;
+    color: #ffffff;
+    background-color: #ff8903;
+
+}
