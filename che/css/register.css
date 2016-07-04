@@ -1,0 +1,234 @@
+input::-ms-clear{display:none;}
+#header{
+    background-color: #3f91eb;
+    padding:14px 0;
+}
+#header .inner{
+    width: 1194px;
+    margin: 0 auto;
+}
+.nav_wrapper{
+    float: left;
+    width: 330px;
+    font-size: 14px;
+    left: 50%;
+    margin-left: 300px;
+
+}
+.nav_wrapper li {
+    float: left;
+    padding:0 30px;
+
+}
+.nav_wrapper li a{
+    display: inline-block;
+    color: #ffffff;
+    line-height: 44px;
+}
+
+.header_right{
+    float: right;
+}
+.header_right a{
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 10px;
+
+
+}
+/*头像*/
+a.user_head{
+    width: 42px;
+    height: 42px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    -moz-border-radius: 50%; /* Firefox */
+    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    border-radius:50%; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+
+}
+.user_head img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    -moz-border-radius: 50%; /* Firefox */
+    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    border-radius:50%; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+}
+.header_right .nav_btn{
+    display: inline-block;
+    border-radius: 4px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 3px 5px;
+}
+.header_right .nav_btn:hover{
+    color: #fadc1c;
+    border: 2px solid #fadc1c;
+
+}
+.form_wrapper{
+background-color: #f5f5f5;
+}
+.form_wrapper .inner{
+
+    padding: 55px 0 ;
+    width: 1194px;
+    margin: 0 auto;
+}
+.form_wrapper form{
+    width:530px;
+    float: right;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #333333;
+    padding: 45px 0 52px 0;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.form_wrapper form ul{
+    width: 484px;
+    float: right;
+    margin-top: 25px;
+}
+.form_title{
+    width: 100px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding-left: 50px;
+}
+.form_wrapper form ul li{
+    margin:20px 0;
+    overflow: hidden;
+}
+.form_wrapper form ul li label{
+    width: 82px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 30px;
+    float: left;
+    padding-top: 14px;
+}
+.form_wrapper form ul li input.info{
+    width: 244px;
+    font-size: 16px;
+}
+li.visible{
+    position: relative;
+
+}
+li.visible input{
+    display: block;
+/*  float: left;*/
+
+}
+img.hidden{
+    position: absolute;
+    top: 18px;
+    right: 110px;
+    cursor: pointer;
+    color: #3f91eb;
+    padding-left: 10px;
+    line-height: 35px;
+}
+li.p112{
+    padding-left: 112px;
+
+}
+
+li.code{
+    position: relative;
+}
+li.code .getCode{
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    color: #3f91eb;
+    padding-left: 10px;
+    line-height: 35px;
+    border-left: 1px solid #d9d9d9
+}
+
+.form_btn{
+
+    width: 272px;
+    color: #ffffff;
+    background-color: #3f91eb;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    border-radius: 8px;
+    padding: 0;
+    -moz-border-radius: 8px; /* Firefox */
+    -webkit-border-radius: 8px; /* Safari 和 Chrome */
+    border-radius: 8px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+
+
+}
+#footer{
+    padding: 20px 0 25px 0;
+    background-color: #f5f5f5;
+}
+#footer p{
+    color: #999999;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+.tl_tip{
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+.tl_tip input.info{
+    width: 138px;
+  /*  padding-right: 118px;*/
+}
+/*checkbox单选框*/
+.checkbox{
+    float: left;
+    margin-right: 15px;
+}
+.checkbox .ck{
+    width: 17px;
+    height: 15px;
+    cursor: pointer;
+    background: url("../img/checked.png") center no-repeat;
+
+}
+.checkbox .uncheck{
+    background: url("../img/uncheck.png") center no-repeat;
+}
+
+/*头像底部隐藏区域个人中心，退出*/
+.person_area{
+    position: relative;
+}
+.opera_con{
+    position: absolute;
+    width: 100px;
+    z-index: 99;
+    right: 10px;
+    border-radius: 4px;
+    background-color: #1f4875;
+    display: none;
+}
+.opera_con a:first-child{
+    border-top: none;
+}
+.opera_con a{
+    display: block;
+    color: #ffffff;
+    font-size:16px ;
+    padding: 10px;
+    border-top: 1px solid #ffffff;
+    margin: 0 5px;
+}
+
+.person_area:hover .opera_con{
+    display: block;
+}
+
+
+

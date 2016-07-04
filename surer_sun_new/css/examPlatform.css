@@ -1,0 +1,11 @@
+/*手机导航*/
+/*#nav_mobile{display: none;}*/
+
+/*广告*/
+#adv_talentPlat{background: url('../img/adv_examPlat.jpg') no-repeat center;position: relative;}
+
+/*产品简介*/
+#talentPlatIntro ul{padding-top: 40px;}
+#talentPlatIntro li{float: left;width: 33.3%;text-align: center;}
+#talentPlatIntro li span{display: block;font-size: 30px;color: #5a5a5a;padding: 50px 0;}
+#talentPlatIntro p{text-align: center;width: 80%;margin:0 auto;}

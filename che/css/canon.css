@@ -1,0 +1,223 @@
+#header{
+    background-color: #3f91eb;
+    padding:14px 0;
+}
+#header .inner{
+    width: 1194px;
+    margin: 0 auto;
+}
+.nav_wrapper{
+    float: left;
+    width: 330px;
+    font-size: 14px;
+    left: 50%;
+    margin-left: 300px;
+
+}
+.nav_wrapper li {
+    float: left;
+    padding:0 30px;
+
+}
+.nav_wrapper li a{
+    display: inline-block;
+    color: #ffffff;
+    line-height: 44px;
+}
+
+.header_right{
+    float: right;
+}
+.header_right a{
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 10px;
+
+
+}
+
+.header_right .nav_btn{
+    display: inline-block;
+    border-radius: 4px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 3px 5px;
+    margin-top: 6px;
+}
+.header_right .nav_btn:hover{
+    color: #fadc1c;
+    border: 1px solid #fadc1c;
+
+}
+.current_location {
+    width: 1200px;
+    font-size: 12px;
+    color: #c3c3c3;
+    margin:  0 auto;
+    height: 67px;
+    line-height: 58px;
+   /* margin: 26px 0 20px 0;*/
+}
+.current_location a{
+    color: #c3c3c3;
+}
+.current_location a.current{
+    color: #3f91eb;
+}
+/*时间轴*/
+#mainContent {
+    background-color: #f5f5f5;
+/*    padding:67px 0 ;*/
+}
+#mainContent .inner{
+    width: 1200px;
+    margin: 0 auto;
+   background-color: #ffffff;
+}
+
+.time_line{
+    padding: 40px 25px;
+    position: relative;
+
+}
+.time_line_inner{
+    padding: 40px 0px 288px 0;
+    position: relative;
+    background: url("../img/dot.png") repeat-y 120px 0px;
+}
+.time_line_inner .dot_active{
+    position: absolute;
+    background: url("../img/dot_active.png") center no-repeat;
+    width:24px;
+    height: 24px;
+    bottom: 0px;
+    left: 113px;
+}
+.time_line .dot{
+
+}
+
+.time_line li{
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.date{
+    width: 107px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-top: 10px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    background: url("../img/time_tip.png") center no-repeat;
+    -webkit-transition: background 200ms ease-in-out;
+    -moz-transition: background 200ms ease-in-out;
+    transition: background 200ms ease-in-out;
+
+
+}
+li:hover  .date{
+    background: url("../img/time_tip_active.png") center no-repeat;
+}
+
+.event_dot{
+    position: absolute;
+    background: url("../img/dot_event.png") center no-repeat;
+    width:24px;
+    height: 24px;
+    top: 14px;
+    left: 113px;
+    -webkit-transition: background 200ms ease-in-out;
+    -moz-transition: background 200ms ease-in-out;
+    transition: background 200ms ease-in-out;
+}
+li:hover .event_dot{
+
+    background: url("../img/dot_active.png") center no-repeat;
+
+
+}
+.time_line li .content_panel{
+    width: 922px;
+    float: left;
+    position: relative;
+    margin-left: 65px;
+    margin-top: 6px;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0  2px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0  2px 8px rgba(0, 0, 0, 0.2);
+    padding: 23px;
+    border-radius: 8px;
+    -moz-border-radius:  8px; /* Firefox */
+    -webkit-border-radius: 8px; /* Safari 和 Chrome */
+    border-radius: 8px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+    -webkit-transition: box-shadow 200ms ease-in-out;
+    -moz-transition: box-shadow 200ms ease-in-out;
+    transition: box-shadow 200ms ease-in-out;
+
+}
+.content_panel .arrow{
+    position: absolute;
+    width: 26px;
+    height: 30px;
+    background: url("../img/arrow.png") left no-repeat;
+    top:16px;
+    left: -26px;
+}
+li:hover  .content_panel{
+    -webkit-box-shadow: 0 -1px 27px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 -1px 27px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 -1px 27px rgba(0, 0, 0, 0.2);
+}
+.content_panel img{
+    float: left;
+}
+.content_panel .text{
+    float: right;
+    width: 486px;
+}
+.content_panel .text .title{
+    font-size: 22px;
+    color: #3a3a3a;
+}
+.text .author_info{
+    color: #c3c3c3;
+    font-size: 12px;
+    margin-top: 8px;
+
+}
+.text .author_info .author{
+    margin-right: 20px;
+    line-height: 20px;
+}
+.text .detail{
+    font-size: 14px;
+    color: #aaaaaa;
+    margin-top: 30px;
+    line-height: 22px;
+}
+/*加载更多*/
+.more_load{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 190px;
+
+    text-align: center;
+    background-color: #3f91eb;
+    color: #ffffff;
+    border-radius: 4px;
+    -moz-border-radius: 4px; /* Firefox */
+    -webkit-border-radius: 4px;/* Safari 和 Chrome */
+    border-radius:4px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+    line-height: 46px;
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+
+

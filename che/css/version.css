@@ -1,0 +1,199 @@
+#version_page {
+    background: url("../img/grid_bg.png") repeat;
+}
+
+#version_page .location {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#version_page .location a {
+    font-size: 14px;
+    color: #CCCCCC;
+    margin-right: 15px;
+}
+#version_page .location a.curr_location{
+    color: #333333;
+}
+#version_page .version_wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 33px;
+}
+.version_wrapper .banner{
+    width: 1200px;
+    height: 460px;
+    background: url("../img/banner_bg.png") center no-repeat;
+}
+.version_wrapper .time_line_wrapper{
+    background-color: #ffffff;
+    margin: 20px auto 30px;
+}
+.version_wrapper .version_inner{
+    margin: 0 auto;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.version_wrapper .time_line_inner{
+   /* border: 3px dashed #e8e8e8;*/
+    position: relative;
+    background: url("../img/dashed_line.png") center repeat-y;
+}
+.version_wrapper .version_inner .version_future{
+    text-align: center;
+    font-size: 18px;
+    color: #CCCCCC;
+    padding: 24px  0 30px 0;
+}
+
+
+.version_inner .year_wrapper{
+    padding-bottom: 80px;
+    position: relative;
+}
+.version_inner .year_wrapper .year_dot{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: #00adee;
+    border:6px solid #e5f7fd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    z-index: 99;
+
+}
+.version_inner .year_wrapper .year_dot::after{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+  /*  width: 83px;
+    height: 83px;*/
+    border-radius: 50%;
+    border: 3px solid #00adee;
+}
+.version_inner .year_wrapper .version_item{
+    margin-top: 80px;
+    position: relative;
+}
+.version_inner .year_wrapper .version_item .version_dot{
+    position: absolute;
+    width: 74px;
+    height: 30px;
+    left: 50%;
+    margin-left: -40px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #00adee;
+    border:3px solid #ffffff;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    z-index: 99;
+
+}
+.version_inner .year_wrapper .version_item .version_dot.add_function{
+    background-color: #ffb600;
+}
+.version_inner .year_wrapper .version_item  .version_dot::after{
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+  /*  width: 80px;
+    height: 36px;*/
+    border-radius: 25px;
+    border: 3px solid #00adee;
+}
+.version_inner .year_wrapper .version_item  .version_dot.add_function::after{
+
+    border: 3px solid #ffb600;
+}
+ .version_item  .left_container,.version_item  .right_container{
+     width: 520px;
+}
+.version_item  .left_container{
+    float: left;
+}
+.version_item  .right_container{
+    float: right;
+}
+ .version_item  .left_container .version_info, .version_item  .left_container .version_time{
+     float: right;
+ }
+.version_item  .right_container .version_info, .version_item  .right_container .version_time{
+    float: left;
+}
+.version_inner .year_wrapper  .version_item .version_info{
+    width: 420px;
+    color: #00adee;
+    background-color: #e5f7fd;
+    border-radius: 14px;
+    padding: 14px 18px;
+    border:1px solid #e5f1f6;
+    font-weight: bold;
+    font-family: "微软雅黑 light";
+    margin-top: -10px;
+}
+.version_inner .year_wrapper  .version_item .info3{
+    margin-top: -40px;
+}
+.version_inner .year_wrapper  .version_item .info2{
+    margin-top: -26px;
+}
+
+.version_item .version_info p{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.version_item  .version_time{
+    width: 250px;
+    float: right;
+    margin-top: -2px;
+
+}
+
+.version_item  .version_time .time{
+    font-size: 22px;
+    font-weight: bolder;
+    color: #003f57;
+    vertical-align: middle;
+}
+
+.version_item  .version_time  .icon,.time_line_inner .version_start .star_icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../img/version_sprite.png");
+    vertical-align: middle;
+    margin: 0 25px;
+}
+.version_wrapper .version_inner .time_line_inner .version_start{
+    background-color: #ffffff;
+    clear: both;
+    position: relative;
+    text-align: center;
+    z-index: 99;
+    font-size: 14px;
+    color: #00adee;
+}
+.version_wrapper .version_inner .time_line_inner .version_start .star_icon{
+    width: 50px;
+    height: 34px;
+    background-position: 0 -293px;
+    text-align: center;
+}

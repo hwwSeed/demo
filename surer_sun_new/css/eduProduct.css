@@ -1,0 +1,16 @@
+/*手机导航*/
+/*#nav_mobile{display: none;}*/
+
+/*广告*/
+#adv_eduProduct,#mAdv_eduProduct{background-color: gray;background: -webkit-linear-gradient(gray, black);background: -moz-linear-gradient(gray, black);background: linear-gradient(gray, black);}
+#mAdv_eduProduct{display: none;}
+
+/*产品设计*/
+#productDesign{background-color: #373d4b;height: 658px;overflow: hidden;}
+#productDesign .surer-columns{padding: 80px 10px 0 10px;}
+#productDesign h3{color: #fff;position: relative;z-index: 9;}
+#productDesign .img{position:relative;top:-144px;}
+#productDesign .img img{width: 100%;display: block;}
+
+
+

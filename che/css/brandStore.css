@@ -1,0 +1,174 @@
+#header{
+    background-color: #3f91eb;
+    padding:14px 0;
+}
+#header .inner{
+    width: 1194px;
+    margin: 0 auto;
+}
+.nav_wrapper{
+    float: left;
+    width: 330px;
+    font-size: 14px;
+    left: 50%;
+    margin-left: 300px;
+
+}
+.nav_wrapper li {
+    float: left;
+    padding:0 30px;
+
+}
+.nav_wrapper li a{
+    display: inline-block;
+    color: #ffffff;
+    line-height: 44px;
+}
+
+.header_right{
+    float: right;
+}
+.header_right a{
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 10px;
+
+
+}
+
+a.user_head{
+    width: 42px;
+    height: 42px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    -moz-border-radius: 50%; /* Firefox */
+    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    border-radius:50%; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+
+}
+.user_head img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    -moz-border-radius: 50%; /* Firefox */
+    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    border-radius:50%; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+}
+.header_right .nav_btn{
+    display: inline-block;
+    border-radius: 4px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 3px 5px;
+}
+.header_right .nav_btn:hover{
+    color: #fadc1c;
+    border: 2px solid #fadc1c;
+
+}
+/*品牌店列表*/
+#mainContent {
+    background-color: #f5f5f5;
+    padding:67px 0 ;
+    overflow: hidden;
+}
+#mainContent .inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.store_list{
+    background-color: #ffffff;
+    padding: 25px 95px 50px 45px;
+}
+.list_title{
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 48px;
+}
+.list_title .site{
+    color: #3f91eb;
+    margin-right: 10px;
+}
+
+.brand_store{
+    font-size: 16px;
+    color: #666666;
+    padding-bottom: 45px;
+    /*margin-right: 400px;*/
+    width: 530px;
+    float: left;
+}
+/*.store_list li .leftStore{
+    float: left;
+}
+.store_list li .rightStore{
+    float: left;
+}*/
+.brand_store p.first_title{
+    margin-bottom: 10px;
+}
+.brand_store p{
+    line-height: 28px;
+}
+.brand_store p .site{
+    font-weight: bold;
+    font-family: "微軟雅黑 light";
+}
+.brand_store .store_type{
+    font-size: 14px;
+    color: #ffffff;
+    padding:3px 11px;
+    margin-left: 5px;
+    background-color: #3f91eb;
+    -moz-border-radius: 6px; /* Firefox */
+    -webkit-border-radius:6px; /* Safari 和 Chrome */
+    border-radius:6px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+}
+/*底部*/
+#footer{
+    background-color: #333333;
+    color: #ffffff;
+    padding: 34px 0 25px 0;
+}
+#footer .inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+#footer .inner .nav{
+    float: left;
+    margin-left: 45px;
+
+
+}
+#footer .inner .nav li{
+    margin: 10px 0;
+
+}
+#footer .inner .nav li a{
+    display: inline-block;
+    font-size: 14px;
+    width: 70px;
+    text-align: right;
+    margin-right: 180px;
+    color: #ffffff;
+
+}
+.contactUs{
+    float: right;
+    font-size: 12px;
+    margin-right: 35px;
+}
+.contactUs .wx{
+    float: left;
+    text-align: center;
+}
+.contact_method{
+    float: left;
+    margin-left: 23px;
+}
+.bottom_claim{
+    text-align: center;
+    clear: both;
+    padding-top: 37px;
+    font-size: 12px;
+}

@@ -1,0 +1,22 @@
+/*手机导航*/
+/*#nav_mobile{display: none;}*/
+
+/*广告*/
+#adv_room{background: url('../img/adv_room.jpg') no-repeat center;position: relative;}
+#adv_room_mc{position: absolute;background-color: black;opacity: 0.3;height: 466px;width: 100%;}
+#adv_room .txt{position: relative;}
+
+/*产品简介*/
+#discoverIntro{background-color: #f7f7f7;}
+#discoverIntro h3,#apprecation h3{padding-left: 10px;}
+#discoverIntro li{float: left;width: 33.3%;padding: 0 10px 20px 10px;box-sizing: border-box;line-height: 23px;padding-bottom: 20px;}
+
+/*产品赏析*/
+#apprecation .appreciation{float:left;width: 33.3%;padding: 0 10px 20px 10px;box-sizing: border-box;cursor: pointer;}
+#apprecation .appreciation:hover .mc{display: none;}
+#apprecation .mc{position: absolute;width: 100%;height: 100%;background-color: black;opacity: 0.6;}
+#apprecation .mc p{position: absolute;color: #fff;font-size: 20px;left:20px;bottom:20px;text-align: left;}
+#apprecation .appreciation img{width: 100%;display: block;}
+
+
+

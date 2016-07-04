@@ -1,0 +1,17 @@
+/*二级导航*/
+#level2_nav{background-color: #485678;}
+
+/*手机导航*/
+/*#nav_mobile{display: none;}*/
+
+/*广告*/
+#adv_train,#mAdv_train{background-color: #07b0ac;}
+
+/*培训形式*/
+#serviceChara li{background-color: #f7f7f7;text-align: center;}
+#serviceChara ul img{display: inline;width: auto;margin-bottom: 20px;}
+
+/*培训通道*/
+#trainWay .btn{border-color:#333;display: block;float: right;margin:-60px 100px 0 0;text-decoration: none;color: #333;}
+#trainWay .btn:hover{background-color: #333;color: #fff;}
+

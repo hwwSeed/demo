@@ -1,0 +1,26 @@
+/*手机导航*/
+/*#nav_mobile{display: none;}*/
+
+/*广告*/
+#adv_train{background: url('../img/adv_train.jpg') no-repeat center;position: relative;}
+
+/*产品简介*/
+#trainIntro ul{padding:40px 0 40px 0;}
+#trainIntro li{float: left;width: 33.3%;text-align: center;padding:0 15px 0px 15px;box-sizing: border-box;color: #fff;}
+#trainIntro .trainIntro{padding-bottom:30px;background-color:#a02f2b;background: -webkit-linear-gradient(#00ccff,#008dd6);background: -moz-linear-gradient(#ce3933,#a02f2b); /* Firefox 3.6 - 15 */background: linear-gradient(#ce3933,#a02f2b); /* 标准的语法 */;border-radius: 15px;}
+#trainIntro p{text-align: center;}
+#trainIntro .trainIntro p{line-height: 60px;}
+#trainIntro .button{line-height:70px;background-color:#fb9902;background: -webkit-linear-gradient(#fb9902,#d6741d);background: -moz-linear-gradient(#fb9902,#d6741d); /* Firefox 3.6 - 15 */background: linear-gradient(#fb9902,#d6741d); /* 标准的语法 */;width: 80%;margin: 0 auto 30px auto;border-radius: 15px;font-size: 17px;}
+
+/*产品赏析*/
+#lunbo1{background-color: #e6e6e6;}
+.lunbo p{text-align: center;}
+.lunbo ul{margin-top: 60px;}
+.lunbo .appreciation{float:left;width: 33.3%;padding: 0 10px 20px 10px;box-sizing: border-box;cursor: pointer;}
+.lunbo .appreciation:hover .mc{display: none;}
+.lunbo .mc{position: absolute;width: 100%;height: 100%;background-color: black;opacity: 0.6;}
+.lunbo .mc p{position: absolute;color: #fff;font-size: 20px;left:20px;bottom:20px;text-align: left;}
+.lunbo .appreciation img{width: 100%;display: block;}
+
+
+

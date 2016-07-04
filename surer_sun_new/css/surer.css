@@ -1,0 +1,37 @@
+/*手机导航*/
+/*#nav_mobile{display: none;}*/
+
+/*广告*/
+#surer_adv,#surer_mobile_adv{padding-top: 50px;background-color: gray;background: -webkit-linear-gradient(gray, black);background: -moz-linear-gradient(gray, black); /* Firefox 3.6 - 15 */background: linear-gradient(gray, black);}
+#watch{float: left;}
+#watch img{display: block;width: 100%;}
+#surer_adv .desc,#surer_mobile_adv .desc{float: left;color: #fff;text-align: right;}
+#surer_adv .desc p,#surer_mobile_adv .desc p{font-size: 32px;line-height: 47px;}
+#surer_adv .desc div,#surer_mobile_adv .desc div{margin-top: 38px;}
+#surer_adv .desc a,#surer_mobile_adv .desc a{color: #fff;}
+#surer_adv .desc span,#surer_mobile_adv .desc span{font-size: 17px;width: 132px;line-height: 40px;display: inline-block;text-align: center;}
+#surer_mobile_adv{display: none;}
+#appoint{border: 1px solid #2bb6b2;box-sizing: border-box;}
+#enterWeb{background-color: #2bb6b2;}
+#enterWeb:hover{background-color: #03a19d;}
+
+/*产品特点*/
+#watchChara li{box-sizing:border-box}
+#watchChara .liFir{border: 1px solid #feb138;}
+#watchChara .liSec{border: 1px solid #07b0ac;}
+#watchChara .liThi{border: 1px solid #485678;}
+#watchChara .text{color: #fff;}
+#watchChara .liFir .text{background-color:#feb138;}
+#watchChara .liSec .text{background-color:#07b0ac;}
+#watchChara .liThi .text{background-color:#485678;}
+
+/*视频介绍*/
+#videoPlay{margin: 0 auto;padding: 0 10px 60px 10px;text-align: center;}
+#videoPlay embed{width: 85%;}
+
+/*预约*/
+#order{background-color: #07b0ac;color: #fff;}
+#order .btn{display: block;color: #fff;border-color: #fff;text-decoration: none;}
+#order .btn:hover{color:#07b0ac;border-color: #fff;background-color: #fff;}
+
+

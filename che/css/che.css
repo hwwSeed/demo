@@ -1,0 +1,644 @@
+/*箭头公共样式*/
+.section_nav{
+    width: 84px;
+    height: 43px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -42px;
+    z-index: 99;
+
+
+
+}
+.section_nav .rectangle{
+    width: 0;
+    height: 0;
+    border-left: 42px solid transparent;
+    border-right: 42px solid transparent;
+
+}
+.section_nav img{
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -6px;
+    cursor: pointer;
+}
+
+#section0 .section_nav .rectangle ,#section1 .section_nav .rectangle{
+
+    border-bottom: 43px solid #e7faff;
+}
+#section2 .section_nav .rectangle{
+    border-bottom: 43px solid #fff4e7;
+}
+#section3 .section_nav .rectangle{
+    border-bottom: 43px solid #ffbb03;
+}
+#section4 .section_nav .rectangle{
+    border-bottom: 43px solid #ffffff;
+}
+#section5 .section_nav .rectangle{
+    border-bottom: 43px solid #f2f4f5;
+}
+
+/*模态框公共样式*/
+.modal-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .4);
+    z-index: 20;
+}
+
+.modal-wrapper {
+    margin: 50px auto;
+    width: 930px;
+    height: 490px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    /*  opacity: 0.1;
+      filter: alpha(opacity=50);
+      -webkit-transition: opacity .15s linear;
+      transition: opacity .15s linear;*/
+}
+
+/*模态框公共样式结束*/
+/*支付成功模态框样式*/
+.pay_tip_inner {
+    text-align: center;
+    padding: 50px 0 60px 0;
+    color: #ffffff;
+}
+
+.pay_tip_inner .modal-desc {
+    margin-top: 50px;
+}
+
+.modal-desc p.opera_tip {
+    font-size: 28px;
+
+}
+
+.modal-desc p.detail_tip {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.footer_wrapper .footer_btn {
+    display: block;
+    margin: 55px auto;
+    width: 220px;
+    border-radius: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.footer_wrapper .footer_btn.index_btn, #pay_success_modal .pay_tip_inner {
+    background-color: #00adee;
+}
+
+.footer_wrapper .footer_btn.repay_btn, #pay_fail_modal .pay_tip_inner {
+    background-color: #ffb600;
+}
+
+#wx_code_modal .wx_code_inner {
+    color: #333333;
+    text-align: center;
+    padding: 75px 0 80px 0;
+}
+
+/*微信扫码支付*/
+
+/********************************/
+
+/*动画*/
+/*从上向下移入*/
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        -ms-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    -webkit-animation: fadeInDown 1s ease 0s 1 both;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: initial;
+    animation-fill-mode: both;
+    animation-play-state: initial;
+    -webkit-animation-play-state: initial;
+}
+
+#mainContainer {
+    background-color: #f3f3f3;
+}
+
+#mainContainer .inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*支付页面*/
+#mainContainer .inner .pay_page {
+    padding: 120px 0 130px 0;
+
+}
+
+.pay_page .pay-item {
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 13px 20px;
+    border: 1px solid #e4e4e4;
+}
+
+.pay_page .order_num {
+    font-size: 18px;
+    color: #2b2b2b;
+
+}
+
+.pay_page .recharge_money {
+    padding: 0 20px;
+}
+
+.pay_page .recharge_money label {
+    font-size: 18px;
+    color: #666666;
+}
+
+.pay_page .recharge_money .value {
+    width: 50%;
+    float: left;
+    padding: 24px 0 34px 0;
+    border-right: 1px solid #e4e4e4;
+}
+
+.recharge_money .value p {
+    color: #ff4d05;
+    font-size: 50px;
+    margin-top: 27px;
+}
+
+.recharge_money .value p i {
+    font-size: 14px;
+    vertical-align: baseline;
+}
+
+.pay_page .recharge_money .car_recharge {
+    float: left;
+    padding: 24px 60px 34px 35px;
+    width: 360px;
+    margin: 0 auto;
+}
+
+.recharge_money .car_recharge .desc {
+    margin-top: 14px;
+}
+
+.recharge_money .car_recharge .desc p {
+    color: #999999;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.pay_page .pay_method {
+    padding: 20px;
+}
+
+.pay_page .pay_method label {
+    color: #2b2b2b;
+    font-size: 18px;
+}
+
+.pay_method .method_list .method-item {
+    display: inline-block;
+    margin-top: 24px;
+    padding-right: 30px;
+}
+
+.method_list .method-item .radio_icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    background: url("../img/pay_unck.png") center no-repeat;
+}
+
+.method_list .method-item .radio_icon.ck {
+    background: url("../img/pay_ck.png") center no-repeat;
+}
+
+.method_list .method-item img {
+    vertical-align: middle;
+    padding: 12px 15px;
+    border: 1px solid #e5e5e5;
+    margin-left: 8px;
+}
+
+.pay_page .confirm_btn {
+    width: 140px;
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+    padding: 6px 0;
+    text-align: center;
+    background-color: #ffb600;
+}
+
+/*车宝协议*/
+
+#mainContainer .inner .top_nav a {
+    display: inline-block;
+    font-size: 18px;
+    color: #333333;
+    margin: 35px 50px 35px 0;
+
+    line-height: 32px;
+}
+
+#mainContainer .inner .top_nav a:hover {
+    border-bottom: 5px solid #00adee;
+}
+
+#mainContainer .inner .top_nav a.active {
+    border-bottom: 5px solid #00adee;
+}
+
+#mainContainer .inner .cbProtocol_page {
+    padding-bottom: 15px;
+}
+
+#mainContainer .inner .cbProtocol_page .protocol_title {
+    text-align: center;
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+#mainContainer .inner .cbProtocol_page .proto_item {
+    margin-bottom: 38px;
+}
+
+.cbProtocol_page .proto_item h5 {
+    color: #333333;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.cbProtocol_page .proto_item p {
+    font-size: 14px;
+    color: #666666;
+}
+
+/***************************************/
+/*宣传页面*/
+.propaganda {
+    position: relative;
+}
+.propaganda  .section{
+    position: relative;
+}
+.propaganda .section_inner {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.propaganda .section_inner {
+    padding-top: 130px;
+    font-weight: 100;
+}
+
+.section_inner .section_info .co_text {
+    margin-bottom: 15px;
+}
+
+.propaganda #section0 {
+    height: 961px;
+    background: url("../img/section1.png") center no-repeat;
+    background-size: cover;
+}
+
+.propaganda #section1 {
+    height: 960px;
+    background: url("../img/section2.png") right no-repeat;
+    background-size: cover;
+}
+
+.section_inner .section_info .sp_text {
+    font-size: 72px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.section_inner .section_info .co_text {
+    font-size: 48px;
+    color: #666666;
+}
+
+.section_inner .section_info .co_text_detail {
+    font-size: 30px;
+    color: #999999;
+}
+
+#section1 .section_info .sp_text span {
+    color: #ffcf03;
+    font-size: 100px;
+}
+
+#section2 {
+    background-color: #e7faff;
+}
+
+#section2 .section_inner {
+    padding: 110px 0;
+}
+
+#section2 .section_inner img {
+    float: left;
+    padding-top: 110px;
+}
+
+#section2 .section_inner .section_info {
+    float: left;
+}
+
+#section2 .section_info .co_text {
+    color: #999999;
+}
+#section3{
+    background: url("../img/section4.png") bottom no-repeat;
+    background-size: contain;
+    background-color: #fff4e7;
+}
+#section3 .section_inner{
+    padding-bottom: 600px;
+
+}
+#section3 .section_info .sp_text span {
+    color: #2a566d;
+    font-size: 100px;
+}
+
+/*#section3 img {
+    margin: 0 auto;
+    display: block;
+}*/
+
+#section4 {
+    height: 964px;
+    background: url("../img/section5_bg.png") center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#section4 .section_inner {
+    padding-top: 155px;
+}
+
+#section4 .section_inner img {
+    margin-top: 110px;
+}
+
+/*图片列表*/
+#section5 {
+    height: 958px;
+}
+
+.swiper-container {
+    width: 1200px;
+    color: #fff;
+    text-align: center;
+    height: 687px;
+}
+
+.swiper-slide .img_inner {
+    position: relative;
+    overflow: hidden;
+    height: 507px;
+    margin: 0 10px;
+    -webkit-transition: box-shadow 200ms ease-in-out;
+    -moz-transition: box-shadow 200ms ease-in-out;
+    transition: box-shadow 200ms ease-in-out;
+}
+.img_inner:hover{
+    box-shadow: 0px 0px 10px #c1c1c1;
+}
+.swiper-slide .img_inner .img_desc {
+    position: relative;
+    color: #615c85;
+    text-align: center;
+    background-color: #f2f4f5;
+    width: 380px;
+    margin: 0 auto;
+    line-height: 30px;
+    padding: 15px 0;
+    z-index: 99;
+}
+.swiper-slide .img_inner .img_desc:hover{
+    background-color: #ffcf03;
+    color: #333333;
+}
+.swiper-slide .img_inner .detail_desc{
+  /*  display: none;*/
+    position: absolute;
+    bottom: -100px;
+    background-color: #ffffff;
+    opacity: 0.9;
+    font-size: 16px;
+    color: #999999;
+    padding: 20px 33px 15px 33px;
+    line-height: 30px;
+}
+.swiper-slide .img_desc i.arrow{
+    display: block;
+    width: 0px;
+    height: 0px;
+    content: "";
+    border-style: solid;
+    border-width: 12px;
+    border-color: transparent transparent #f2f4f5 transparent;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    margin: 0 auto;
+    top: -23px;
+    z-index: 9;
+}
+.swiper-slide .img_desc:hover i.arrow{
+    border-color: transparent transparent #ffcf03 transparent;
+}
+.pagination {
+    position: absolute;
+    z-index: 20;
+    left: 10px;
+    right: 0;
+    bottom: 0px;
+}
+.swiper-pagination-switch {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-right: 5px;
+    opacity: 0.8;
+    border: 3px solid #615c85;
+    cursor: pointer;
+}
+.swiper-visible-switch {
+    background: #aaa;
+}
+.swiper-active-switch {
+    background: #615c85;
+    border: 3px solid #615c85
+}
+
+#section6 {
+    background-color: #f2f4f5;
+    padding-bottom: 60px;
+
+}
+
+#section6 .section_inner {
+    padding: 100px 0;
+}
+
+#section6 .section_inner .comment_list {
+    background-color: #ffffff;
+    padding: 0px 10px 0px 18px;
+}
+
+.comment_list li {
+    overflow: hidden;
+    padding: 20px 16px 26px 0;
+    border-top: 1px solid #e8e8e8;
+}
+
+.comment_list li .user_head {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #e4e4e4;
+    margin-top: 7px;
+}
+
+.comment_list li .comment_info {
+    float: left;
+    width: 1020px;
+    margin-left: 14px;
+}
+
+.comment_info .user_name {
+    font-size: 16px;
+    color: #333;
+    font-weight: bolder;
+}
+
+.comment_info .opera_time {
+    font-size: 14px;
+    color: #CCCCCC;
+    margin-left: 10px;
+}
+
+.comment_info .comment_con {
+    color: #999999;
+    font-size: 13px;
+    line-height: 30px;
+    margin-top: 14px;
+}
+
+.comment_list li .comment_rank {
+    float: right;
+    font-size: 14px;
+    color: #CCCCCC;
+    margin-right: 3px;
+}
+.comment_area #comment_text {
+    height: 142px;
+    width: 1180px;
+    outline: none;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: 8px;
+    line-height: 25px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    resize: none;
+}
+
+.publish_comment {
+    float: right;
+    display: block;
+    border: 1px solid #00adee;
+    color: #00adee;
+    line-height: 47px;
+    width: 178px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#footer {
+    background: url("../img/section_footer.png") center no-repeat;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-size: cover;
+    height: 180px;
+    z-index: 999;
+}
+#footer .handle {
+    position: absolute;
+    display: block;
+    background-color: #ea5903;
+    color: #ffffff;
+    width: 210px;
+    text-align: center;
+    padding: 15px 0;
+    right: 0px;
+    top: 82px;
+    font-size: 18px;
+
+}
+

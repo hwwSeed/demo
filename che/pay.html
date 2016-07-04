@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>支付页面</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/che.css">
+</head>
+<body style="min-width: 1200px;margin: 0 auto">
+<div id="mainContainer">
+    <div class="inner">
+        <div class="pay_page">
+            <div class="order_num pay-item"><label>订单号：</label><span class="num">12344567755</span></div>
+            <div class="recharge_money pay-item clear-fix">
+                <div class="value"><label>充值金额</label>
+                    <p><i>&yen;</i>100</p></div>
+                <div class="car_recharge">
+                    <label>加油卡充值</label>
+                    <div class="desc">
+                        <p>预充50元送70元，预充100元是送150元，预充150元
+                            送230元(30元加油卡预充值＋加油券礼包)</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="pay_method pay-item">
+                <label>充值方式</label>
+                <div class="method_list clear-fix">
+                    <div class="pay_zf method-item clear-fix"><span class="radio_icon ck"></span><img
+                            src="img/pay_zfb.png"></div>
+                    <div class="pay_wx method-item clear-fix"><span class="radio_icon"></span><img src="img/pay_wx.png"></div>
+                </div>
+            </div>
+            <a href="" class="confirm_btn">确认</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<!--支付成功弹出框-->
+<div id="pay_success_modal" class="modal-container" style="display: none">
+    <div class="modal-wrapper">
+        <div class="modal-body">
+            <div class="pay_tip_inner">
+                <img src="img/pay_success.png" width="77px;" alt="">
+                <div class="modal-desc">
+                    <p class="opera_tip">支付成功</p>
+                    <p class="detail_tip">您的消息已提交，7个工作日内寄出加油卡</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="modal-footer">
+            <div class="footer_wrapper">
+                <a href="" class="footer_btn index_btn">返回首页(<span class="timer">5</span>)</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--支付失败-->
+<div id="pay_fail_modal" class="modal-container" style="display: none">
+    <div class="modal-wrapper">
+        <div class="modal-body">
+            <div class="pay_tip_inner ">
+                <img src="img/pay_fail.png" width="77px;" alt="">
+                <div class="modal-desc">
+                    <p class="opera_tip">支付失败</p>
+                    <p class="detail_tip">请重新支付</p>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="footer_wrapper">
+                <a href="" class="footer_btn repay_btn">重新支付(<span class="timer">5</span>)</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--微信扫码-->
+<div id="wx_code_modal" class="modal-container" style="display: none">
+    <div class="modal-wrapper">
+        <div class="modal-body">
+            <div class="wx_code_inner">
+                <p style="margin-bottom: 24px;font-size: 20px">扫描二维码支付</p>
+                <img src="img/pay_code.png" width="250px" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

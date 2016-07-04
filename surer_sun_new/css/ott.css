@@ -1,0 +1,22 @@
+/*手机导航*/
+/*#nav_mobile{display: none;}*/
+
+/*广告*/
+#adv_ott{background: url('../img/adv_ott.jpg') no-repeat center;position: relative;}
+
+/*产品简介*/
+#ottIntro ul{padding:40px 0 40px 0;}
+#ottIntro li{float: left;width: 25%;text-align: center;padding-bottom: 30px;}
+#ottIntro li span{display: block;font-size: 30px;color: #5a5a5a;line-height: 140px;}
+#ottIntro p{text-align: center;width: 80%;margin:0 auto;}
+
+/*产品赏析*/
+#apprecation_ott{background-color: #e6e6e6;}
+#apprecation_ott .appreciation{float:left;width: 33.3%;padding: 0 10px 20px 10px;box-sizing: border-box;cursor: pointer;}
+#apprecation_ott .appreciation:hover .mc{display: none;}
+#apprecation_ott .mc{position: absolute;width: 100%;height: 100%;background-color: black;opacity: 0.6;}
+#apprecation_ott .mc p{position: absolute;color: #fff;font-size: 20px;left:20px;bottom:20px;text-align: left;}
+#apprecation_ott .appreciation img{width: 100%;display: block;}
+
+
+

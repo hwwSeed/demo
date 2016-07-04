@@ -1,0 +1,103 @@
+/*广告*/
+#watch {
+    float: left;
+}
+
+#watch img {
+    display: block;
+    width: 100%;
+}
+
+.index_adv {
+    padding-top: 80px;
+    float: left;
+    width: 100%;
+}
+
+.dn {
+    display: none;
+}
+
+#index_adv .desc, #index_mobile_adv .desc {
+    float: left;
+    color: #fff;
+    text-align: right;
+}
+
+#index_adv .desc p, #index_mobile_adv .desc p {
+    font-size: 28px;
+    line-height: 47px;
+}
+
+#index_adv .desc div, #index_mobile_adv .desc div {
+    margin-top: 38px;
+}
+
+#index_adv .desc a, #index_mobile_adv .desc a {
+    color: #fff;
+}
+
+#index_adv .desc a:hover, #index_mobile_adv .desc a:hover {
+    color: #07b0ac;
+}
+
+#advOne .desc a, #mobile_advOne .desc a {
+    color: #5a5a5a;
+}
+
+#advOne .desc a:hover {
+    color: #07b0ac;
+}
+
+#advOne .desc, #mobile_advOne .desc {
+    color: #5a5a5a;
+}
+
+#index_adv .desc span, #index_mobile_adv .desc span {
+    font-size: 17px;
+}
+
+#advOne, #mobile_advOne {
+    background-color: #d8d8d8;
+    background: -webkit-linear-gradient(#d8d8d8, #eaeaea);
+    background: -moz-linear-gradient(#d8d8d8, #eaeaea); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#d8d8d8, #eaeaea); /* 标准的语法 */
+
+}
+
+#advTwo, #mobile_advTwo {
+    background-color: #f79120;
+    background: -webkit-linear-gradient(#f0ab3b, #fd7c0a);
+    background: -moz-linear-gradient(#f0ab3b, #fd7c0a); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#f0ab3b, #fd7c0a); /* 标准的语法 */
+}
+
+#advTwo .img {
+    padding: 0;
+}
+
+#advThree, #mobile_advThree {
+    background-color: #005bab;
+    background: -webkit-linear-gradient(#007fe1, #01529d);
+    background: -moz-linear-gradient(#007fe1, #01529d); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#007fe1, #01529d); /* 标准的语法 */
+}
+
+#advFour, #mobile_advFour {
+
+    background-color: #303030;
+    background: -webkit-linear-gradient(gray, black);
+    background: -moz-linear-gradient(gray, black); /* Firefox 3.6 - 15 */
+    background: linear-gradient(gray, black); /* 标准的语法 */
+}
+
+#index_mobile_adv {
+    display: none;
+}
+
+
+
+
+
+
+

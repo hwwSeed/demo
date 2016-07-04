@@ -1,0 +1,148 @@
+#registerContainer {
+    width: 430px;
+    margin: 0 auto;
+    padding: 40px 0 70px 0;
+}
+
+.info_form li {
+    margin: 10px 0;
+}
+
+.info_form li label {
+    display: inline-block;
+    width: 100px;
+    font-size: 18px;
+    color: #888888;
+    text-align: right;
+    padding-right: 18px;
+}
+
+.info_form li.require label {
+    padding-right: 2px;
+}
+
+.info_form li.pl110 {
+    padding-left: 118px;
+    font-size: 18px;
+    color: #888888;
+}
+
+.info_form li input {
+    background-color: #f3f3f3;
+    border: 1px solid #f3f3f3;
+    padding: 5px 2px;
+    line-height: 20px;
+    font-size: 14px;
+    width: 70%;
+    font-family: "微软雅黑";
+
+}
+
+.send-btn {
+    display: inline-block;
+    width: 115px;
+    margin-left: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 34px;
+    background-color: #07b0ac;
+    font-size: 14px;
+    text-align: center;
+}
+
+.verify_codeIcon {
+    display: inline-block;
+    width: 115px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.info_form li.code input {
+    width: 170px;
+}
+
+.info_form li.require i {
+    color: #fc3434;
+    text-align: center;
+    padding-right: 11px;
+}
+
+.info_form .a_link {
+    color: #019bfc;
+    font-style: italic;
+}
+
+.info_form .form_btn, .tip_link {
+
+    width: 310px;
+    line-height: 28px;
+    background-color: #07b0ac;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*忘记密码弹出框*/
+.dialog-wrapper {
+    position: relative;
+}
+
+.dialog-close {
+    position: absolute;
+    top: 0px;
+    right: 17px;
+    color: #07b0ac;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.dialog-confirm {
+    width: 515px;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -150px;
+    z-index: 100;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+
+}
+
+.dialog_form {
+    width: 430px;
+    margin: 0 auto;
+    padding-right: 39px;
+}
+
+.tipDialog .dialog-content {
+    width: 280px;
+    margin: 0 auto;
+    padding: 45px 0;
+}
+
+.tip_content {
+    text-align: center;
+    color: #07b0ac;
+    font-size: 24px;
+    line-height: 50px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.tip_link {
+    display: block;
+    width: 265px;
+    text-decoration: none;
+    border: 1px solid #f3f3f3;
+    padding: 5px 2px;
+}
+.tipDialog  .dialog-close{
+    top: 7px;
+}

@@ -1,0 +1,887 @@
+@media (min-width: 1480px) {
+    .surer-col-3-1 {
+        width: 480px;
+    }
+
+    .surer-col-4-1 {
+        width: 340px;
+    }
+
+    .surer-col-4-2 {
+        width: 660px;
+    }
+
+    .surer-col-5-3 {
+        width: 888px;
+    }
+
+    .surer-col-6-2 {
+        width: 460px;
+    }
+
+    .surer-small-col-6-2 {
+        width: 380px;
+    }
+
+    .surer-columns {
+        width: 1440px;
+    }
+
+    /*index.html*/
+    #index_adv .desc {
+        padding-top: 90px;
+    }
+
+    #service .text {
+        height: 126px;
+    }
+
+    .product_infor {
+        padding-top: 146px;
+    }
+
+    #index_adv #watch {
+        width: 1100px;
+        margin-right: 100px;
+    }
+
+    #index_adv2 {
+        width: 1100px;
+    }
+
+    #index_adv3 {
+        width: 764px;
+    }
+
+    #advThree .img {
+        padding-right: 250px;
+    }
+
+    #index_adv4 {
+        width: 1042px;
+    }
+
+    #advOne .img {
+        padding-right: 70px;
+    }
+
+    /*about_us.html*/
+    #joinUs li {
+        width: 380px;
+    }
+
+    #team .text {
+        height: 160px;
+    }
+
+    /*surer.html*/
+    #watchChara .text {
+        height: 149px;
+    }
+
+    #surer_adv .desc {
+        padding-top: 90px;
+    }
+
+    /*365cloudPlatform.html*/
+    #undertake img {
+        width: 80%;
+    }
+
+    /*productList.html*/
+    #list .left {
+        left: 150px;
+    }
+
+    #list .right {
+        right: 150px;
+    }
+}
+
+@media (max-width: 1597px) {
+    /*index.html*/
+    #index_adv #watch {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 1479px) and (min-width: 1240px) {
+    .surer-col-3-1 {
+        width: 480px;
+    }
+
+    .surer-col-4-1 {
+        width: 280px;
+    }
+
+    .surer-col-4-2 {
+        width: 540px;
+    }
+
+    .surer-col-5-3 {
+        width: 744px;
+    }
+
+    .surer-col-6-2 {
+        width: 380px;
+    }
+
+    .surer-small-col-6-2 {
+        width: 300px;
+    }
+
+    .surer-columns {
+        width: 1200px;
+    }
+
+    /*index.html*/
+    #index_adv .desc {
+        padding-top: 90px;
+    }
+
+    .product_infor {
+        padding-top: 85px;
+    }
+
+    #service .text {
+        height: 149px;
+    }
+
+    #case .text {
+        height: 155px;
+    }
+
+    #index_adv #watch {
+        width: 900px;
+    }
+
+    #index_adv2 {
+        width: 900px;
+    }
+
+    #index_adv3 {
+        width: 626px;
+    }
+
+    #advThree .img {
+        padding-right: 180px;
+    }
+
+    #index_adv4 {
+        width: 852px;
+    }
+
+    #advOne .img {
+        padding-right: 60px;
+    }
+
+    /*about_us.html*/
+    #joinUs li div:first-child {
+        height: 220px;
+    }
+
+    #joinUs li {
+        width: 300px;
+    }
+
+    #team .text {
+        height: 160px;
+    }
+
+    /*surer.html*/
+    #watchChara .text {
+        height: 172px;
+    }
+
+    #surer_adv .desc {
+        padding-top: 50px;
+    }
+
+    /*eduProduct.html*/
+    #productDesign {
+        height: 548px;
+    }
+
+    /*intelRobot.html*/
+    #productChara, #gameIntro {
+        height: 494px;
+    }
+
+    /*eduCloudPlat.html*/
+    #adv_eduPlatform {
+        height: 448px;
+        background: url('../img/adv_eduPlatform.jpg') no-repeat 85% center;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 1239px) and (min-width: 1000px) {
+    .surer-col-4-1 {
+        width: 220px;
+    }
+
+    .surer-col-4-2 {
+        width: 420px;
+    }
+
+    .surer-col-5-3 {
+        width: 600px;
+    }
+
+    .surer-col-6-2 {
+        width: 300px;
+    }
+
+    .surer-small-col-6-2 {
+        width: 280px;
+    }
+
+    .surer-columns {
+        width: 960px;
+    }
+
+    .adv1 .img {
+        width: 430px;
+        padding: 0 100px;
+    }
+
+    /*index.html*/
+    .product_infor {
+        padding-top: 45px;
+    }
+
+    #case .text {
+        height: 126px;
+    }
+
+    #service .text {
+        height: 149px;
+    }
+
+    #case .text {
+        height: 150px;
+    }
+
+    #index_adv .desc {
+        padding-top: 35px;
+    }
+
+    #index_adv #watch {
+        width: 650px;
+    }
+
+    #index_adv2 {
+        width: 650px;
+    }
+
+    #index_adv3 {
+        width: 453px;
+    }
+
+    #index_adv4 {
+        width: 616px;
+        padding: 0 25px;
+    }
+
+    /*about_us.html*/
+    #joinUs li {
+        width: 280px;
+        margin: 0 20px;
+    }
+
+    #team .text {
+        height: 180px;
+    }
+
+    /*365.html*/
+    .col_small_6_2_columns li {
+        margin: 0 20px 20px 20px;
+    }
+
+    /*surer.html*/
+    #watchChara .text {
+        height: 195px;
+    }
+
+    #video {
+        display: none;
+    }
+
+    /*eduProduct.html*/
+    #productDesign {
+        height: auto;
+    }
+
+    #productDesign .img {
+        position: static;
+    }
+
+    /*intelRobot.html*/
+    #productChara, #gameIntro {
+        height: 380px;
+    }
+
+    /*eduCloudPlat.html*/
+    #adv_eduPlatform {
+        height: 448px;
+        background: url('../img/adv_eduPlatform.jpg') no-repeat 79% center;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 1239px) {
+    .adv3 .txt {
+        padding-top: 40px;
+    }
+
+    .adv3 .txt p:first-child {
+        font-size: 35px;
+    }
+
+    .adv3 .txt p:nth-child(2) {
+        font-size: 25px;
+    }
+
+    /*eduProduct.html*/
+    #productDesign {
+        height: auto;
+    }
+
+    #productDesign .img {
+        position: static;
+    }
+
+    /*ott.html*/
+    #ottIntro li img {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    #nav {
+        display: none;
+    }
+
+    #footer ul li:first-child {
+        float: none;
+        text-align: center;
+    }
+
+    #footer ul li:nth-child(2) {
+        float: none;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #footer img {
+        margin-top: 0;
+    }
+
+    /*index.html*/
+    .product_infor {
+        float: none;
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    .product_infor a {
+        margin: 0 auto 50px auto;
+    }
+
+    .product_img {
+        margin: 0 50px;
+        float: none;
+    }
+
+    #surer_adv {
+        display: none;
+    }
+
+    #index_adv {
+        display: none;
+    }
+
+    #surer_mobile_adv {
+        display: block;
+    }
+
+    #surer_mobile_adv .desc {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    #index_mobile_adv {
+        display: block;
+    }
+
+    #index_mobile_adv .desc {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    #mobile_advThree #watch, #mobile_advOne #watch {
+        width: 100%;
+    }
+
+    #mobile_advThree #watch img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #mobile_advOne #watch img {
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    /*about_us.html*/
+    #partnerImg img {
+        width: 100%;
+    }
+
+    /*surer.html*/
+    #video {
+        display: none;
+    }
+
+    /*robot.html*/
+    .intro1 p {
+        width: 80%;
+    }
+
+    #adv_robot {
+        background: url('../img/adv_robot.png') no-repeat 30% center;
+    }
+
+    #productChara, #gameIntro {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    #productChara .product_img, #gameIntro .product_img {
+        position: static;
+        margin: 0;
+    }
+
+    /*discoverRoom.html*/
+    #apprecation .appreciation {
+        width: 50%;
+    }
+
+    /*ott.html*/
+    #adv_ott {
+        background: url('../img/adv_ott.jpg') no-repeat 20% center;
+    }
+
+    /*eduCloudPlat.html*/
+    #adv_eduPlatform {
+        height: 448px;
+        background: url('../img/adv_eduPlatform.jpg') no-repeat 55% center;
+        position: relative;
+    }
+
+    #adv_eduPlat_mc {
+        display: block;
+    }
+
+    /*train_edu.html*/
+    #trainWay {
+        text-align: center;
+    }
+
+    #trainWay .btn {
+        float: none;
+        margin: 60px auto 0;
+    }
+}
+
+@media only screen and (max-width: 999px) and (min-width: 760px) {
+    .surer-col-4-1 {
+        width: 160px;
+    }
+
+    .surer-col-6-2 {
+        width: 220px;
+    }
+
+    .surer-small-col-6-2 {
+        width: 220px;
+    }
+
+    .surer-columns {
+        width: 720px;
+    }
+
+    .adv1 .img {
+        width: 308px;
+        padding: 0 60px;
+    }
+
+    .adv1 .txt {
+        padding-top: 80px;
+    }
+
+    .adv2 .txt {
+        padding-top: 160px;
+    }
+
+    .adv3 .txt {
+        padding-top: 10px;
+    }
+
+    /*index.html*/
+    #case .text {
+        height: 190px;
+    }
+
+    #case .title {
+        font-size: 23px;
+    }
+
+    #service .text {
+        height: 195px;
+    }
+
+    /*about_us.html*/
+    #joinUs li div:first-child {
+        height: 280px;
+    }
+
+    #joinUs li {
+        width: 200px;
+        margin: 0 20px;
+    }
+
+    #team .text {
+        height: 230px;
+    }
+
+    /*365.html*/
+    .col_small_6_2_columns li {
+        margin: 0 10px 20px 10px;
+    }
+
+    /*surer.html*/
+    #watchChara .text {
+        height: 241px;
+    }
+}
+
+@media only screen and (max-width: 759px) {
+    #nav_mobile {
+        display: block;
+    }
+
+    #level2_nav ul {
+        display: none;
+    }
+
+    /*eduCloudPlatform.html*/
+    #eduPlatformIntro .img img {
+        width: 100%;
+    }
+
+    #eduPlatformIntro .surer-columns {
+        padding: 80px 15px;
+    }
+
+    /*ott.html*/
+    #apprecation_ott .appreciation {
+        width: 100%;
+    }
+
+    #ottIntro li {
+        width: 50%;
+    }
+
+    #ottIntro li img {
+        width: 90%;
+    }
+
+    .lunboPop .surer-columns {
+        width: 100%;
+    }
+
+    .lunboPop .flicker-example {
+        width: 100%;
+    }
+
+    .lunboPop img, .lunboPop .txt, .popHeader {
+        width: 95%;
+    }
+
+    /*trainVisual.html*/
+    .lunbo .appreciation {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 759px) and (min-width: 580px) {
+    .surer-col-4-1 {
+        width: 115px;
+    }
+
+    .surer-col-6-2 {
+        width: 160px;
+    }
+
+    .surer-small-col-6-2 {
+        width: 180px;
+    }
+
+    .surer-columns {
+        width: 540px;
+    }
+
+    .adv1 .img {
+        width: 208px;
+        padding: 0 20px;
+    }
+
+    .adv1 .txt {
+        padding-top: 40px;
+    }
+
+    .adv2 .txt {
+        padding-top: 160px;
+    }
+
+    .adv3 .txt {
+        padding-top: 10px;
+    }
+
+    .adv3 .txt p:first-child {
+        font-size: 30px;
+    }
+
+    /*index.html*/
+    #service .text {
+        height: 218px;
+    }
+
+    #case .text {
+        height: 149px;
+    }
+
+    #case .title {
+        font-size: 16px;
+    }
+
+    #case .text {
+        height: 220px;
+    }
+
+    /*about_us.html*/
+    #team .title {
+        font-size: 24px;
+    }
+
+    #joinUs li div:first-child {
+        height: 340px;
+    }
+
+    #joinUs li {
+        width: 140px;
+        margin: 0 20px;
+    }
+
+    #team .text {
+        height: 285px;
+    }
+
+    /*365.html*/
+    #serviceChara ul img {
+        width: 90%;
+    }
+
+    .col_small_6_2_columns li {
+        margin: 0 0 20px 0;
+    }
+
+    /*surer.html*/
+    #watchChara .text {
+        height: 287px;
+    }
+}
+
+@media only screen and (max-width: 579px) {
+    #sideNav {
+        width: 100%;
+    }
+
+    #search {
+        display: none;
+    }
+
+    .adv1 .img {
+        padding: 0 30px;
+    }
+
+    .adv1 .txt {
+        padding: 50px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .adv3 {
+        display: none;
+    }
+
+    .madv3 {
+        display: block;
+    }
+
+    .madv3 .txt {
+        padding: 10px 0 70px 0;
+    }
+
+    .madv3 .img {
+        padding: 0 10px;
+    }
+
+    .adv2 .txt {
+        padding: 160px 0 0 0;
+    }
+
+    #footer img {
+        width: 100%;
+    }
+
+    /*about_us.html*/
+    #joinUs li {
+        margin: 0 10px;
+    }
+
+    #suresun_intro h3 {
+        font-size: 28px;
+    }
+
+    #partner li {
+        width: 100%;
+    }
+
+    /*365.html*/
+    .col_small_6_2_columns li {
+        margin: 0;
+    }
+
+    /*surer.html*/
+    #surer_mobile_adv .desc p {
+        font-size: 26px;
+    }
+
+    #surer_mobile_adv .desc div {
+        margin-top: 10px;
+    }
+
+    /*index.html*/
+    #case li, #service li {
+        float: none;
+    }
+
+    .product_img {
+        margin: 0 20px;
+    }
+
+    #index_mobile_adv .desc p {
+        font-size: 26px;
+    }
+
+    #index_mobile_adv .desc div {
+        margin-top: 10px;
+    }
+
+    /*eduProduct.html*/
+    #productDesign .img {
+        padding-bottom: 50px;
+    }
+
+    #adv_eduProduct {
+        display: none;
+    }
+
+    #mAdv_eduProduct {
+        display: block;
+    }
+
+    /*discoverRoom*/
+    #discoverIntro li {
+        width: auto;
+    }
+
+    #appreciation .surer-columns {
+        padding: 80px 5px;
+    }
+
+    #apprecation .appreciation {
+        padding: 0 5px 20px 5px;
+    }
+
+    #apprecation .surer-columns {
+        padding: 80px 5px;
+    }
+
+    #apprecation .mc p {
+        left: 4px;
+        bottom: 10px;
+        font-size: 14px;
+    }
+
+    /*talentPlatForm.html*/
+    #talentPlatIntro li {
+        width: 100%;
+    }
+
+    #talentPlatIntro li span {
+        line-height: 100px;
+        padding: 0;
+    }
+
+    /*trainVisual.html*/
+    #trainIntro li {
+        width: 100%;
+    }
+
+    #trainIntro .trainIntro {
+        padding-bottom: 5px;
+        margin-top: 20px;
+    }
+
+    #trainIntro .button {
+        line-height: 45px;
+    }
+
+    /*digitPresent.html*/
+    #pack li {
+        float: none !important;
+        width: 100%;
+    }
+
+    #vi .img img {
+        width: 80%;
+        margin-right: 0 !important;
+    }
+
+    /*productList.html*/
+    #list {
+        width: 95%;
+    }
+
+    #list .left {
+        left: 25px;
+        font-size: 28px;
+    }
+
+    #pageTitle td div {
+        width: 75px;
+    }
+
+    #pageTitle .title {
+        padding: 0 15px;
+    }
+}
+
+
+
+	

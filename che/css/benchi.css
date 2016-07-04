@@ -1,0 +1,159 @@
+.banner{
+    background-color: #3a85d8;
+    padding: 40px 0 38px 0;
+}
+.banner img{
+    display: block;
+    width:1066px;
+    vertical-align: middle;
+    margin: 0 auto;
+
+}
+.section_title{
+    background-color: #3f91eb;
+    font-size: 45px;
+    text-align: center;
+    line-height: 80px;
+    clear: both;
+}
+.section_title img{
+    vertical-align: middle;
+}
+.car_data{
+    width: 1150px;
+    margin: 0 auto;
+
+    padding: 55px 0 63px 0;
+}
+.car_data img{
+    display: inline-block;
+}
+.recommend_wrapper{
+    width: 1200px;
+    margin:  0 auto;
+}
+.recommend_content{
+    margin-top: 22px;
+}
+.recommend_content .car_version{
+    font-size: 35px;
+    color: #333333;
+}
+
+.car_info span{
+    font-size:24px;
+    color: #333333;
+    line-height:45px;
+    float: left;
+    width: 275px;
+}
+.car_info .info2{
+    left: 50%;
+    margin-left: 240px;
+    color: #3a87c1;
+
+}
+.car_info .info3{
+    float: right;
+
+}
+.car-detail{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 8px;
+
+}
+.car-detail .car_img{
+    width: 380px;
+    float: left;
+}
+.car-detail .car_data{
+    width: 390px;
+    float: right;
+}
+.car_data img{
+    float: left;
+}
+.car_data .sum_times{
+    color: #333333;
+    float: left;
+    margin-left:20px;
+    padding-top:22px;
+}
+.sum_times label{
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    border-bottom: 1px solid #333333;
+}
+.sum_times .main_num{
+    font-size: 32px;
+}
+.car_data .times{
+    float: left;
+    margin-left: 30px;
+}
+.times li:before{
+    content: '°';
+    color: #333333;
+   vertical-align: sub;
+    padding-left: 10px;
+
+}
+.times li{
+    color: #3a87c1;
+    font-size: 24px;
+    line-height: 45px;
+}
+.times li span{
+    margin-left: 14px;
+}
+.car_param{
+    margin: 20px 0 15px 0;
+    clear: both;
+    background-color: #7c7c7c;
+   border-radius: 8px;
+    padding: 10px 0;
+    -moz-border-radius: 8px; /* Firefox */
+    -webkit-border-radius:8px; /* Safari 和 Chrome */
+    border-radius:8px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+}
+.car_param p{
+    font-size: 24px;
+    line-height:50px;
+    text-align: center;
+    color: #ffffff;
+}
+.suit_crowd{
+    width: 1100px;
+    margin: 0 auto;
+}
+.section{
+    width: 360px;
+    display: inline-block;
+    float: left;
+    margin-bottom: 15px;
+}
+.section h4{
+    width: 160px;
+    background-color: #3f91eb;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: left;
+    padding-left: 6px;
+    border-radius: 8px;
+    -moz-border-radius: 8px; /* Firefox */
+    -webkit-border-radius:8px; /* Safari 和 Chrome */
+    border-radius:8px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+}
+.section .suit_detail{
+    border-right: 1px solid #7c7c7c;
+    height: 210px;
+    margin: 24px 21px 0px 5px;
+
+}
+
+.suit_detail p{
+    line-height:30px;
+    color: #7c7c7c;
+}

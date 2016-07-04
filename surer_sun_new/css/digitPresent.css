@@ -1,0 +1,38 @@
+/*二级导航*/
+#level2_nav{background-color: #485678;}
+
+/*手机导航*/
+/*#nav_mobile{display: none;}*/
+
+#bodyBg{position: fixed;z-index:-1;width: 100%;height: 100%;background:url('../img/trainBodyBg.jpg') no-repeat center;}
+
+/*广告*/
+#adv_digit,#mAdv_digit{background-color: #f6ad3a;}
+
+/*产品宣传片*/
+#trailer{background-color: #07b0ac;color: #fff;text-align: center;}
+#trailer h3{color: #fff;text-align: left;}
+#trailer .img{margin: 50px 0 80px 0;}
+
+/*ppt可视化*/
+#ppt .img{text-align: center;margin:  90px 0;}
+#ppt .img img{width: 80%;}
+
+/*展馆*/
+#exHall{background-color: black;opacity: 0.7;filter:alpha(opacity=70);color: #fff;}
+#exHall h3{color: #fff;}
+
+/*vi*/
+#vi{background-color: #f7f7f7;}
+#vi .img{text-align: center;margin: 45px 0 60px 0;}
+#vi .img img{width: 45%;margin-bottom: 20px;}
+
+/*形象包装*/
+#pack{background-color: #f7f7f7;}
+#pack li{width: 47%;font-size: 17px;margin-bottom: 15px;line-height: 30px;}
+
+/*网站建立*/
+#webDesign{text-align: center;}
+#webDesign h3{text-align: left;}
+#webDesign .img{margin: 50px 0 80px 0;}
+

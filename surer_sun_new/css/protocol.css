@@ -1,0 +1,45 @@
+.protocol_header {
+    background-color: #fafafa;
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+    line-height: 40px;
+    padding-left: 210px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.protocol_content {
+    width: 730px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.top-tip {
+    font-size: 16px;
+    color: #000000;
+    font-family: "微软雅黑";
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.protocol_section h3{
+    font-size: 18px;
+    line-height: 35px;
+}
+.protocol_section p{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+.protocol_section .sub_p{
+    margin-bottom: 0px;
+    line-height: 30px;
+    margin-left: 30px;
+
+}
+#section3 p, #section4 p, #section5 p,#section6 p,#section7 p,#section8 p,#section9 p{
+    margin-bottom: 0px;
+}
+#section4, #section5, #section6,#section7,#section10{
+    margin-top: 25px;
+}

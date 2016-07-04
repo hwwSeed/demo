@@ -1,0 +1,22 @@
+/*手机导航*/
+/*#nav_mobile{display: none;}*/
+
+/*广告*/
+#adv_game{background: url('../img/adv_game.png') no-repeat 0 center;position: relative;}
+#adv_game .txt{position: relative;}
+
+/*产品特色*/
+#gameIntro{color: #686868;overflow: hidden;height: 600px;}
+#gameIntro .surer-columns{padding-bottom: 0;}
+#gameIntro .product_img{position: relative;top:-77px;}
+
+/*产品赏析*/
+.lunbo .appreciation{float:left;width: 33.3%;padding: 0 10px 20px 10px;box-sizing: border-box;cursor: pointer;}
+#apprecation_game{background-color: #e6e6e6;}
+#apprecation_game .appreciation:hover .mc{display: none;}
+#apprecation_game .mc{position: absolute;width: 100%;height: 100%;background-color: black;opacity: 0.6;}
+#apprecation_game .mc p{position: absolute;color: #fff;font-size: 20px;left:20px;bottom:20px;text-align: left;}
+#apprecation_game .appreciation img{width: 100%;display: block;}
+
+
+

@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 14px arial, "微软雅黑", "Hiragino Sans GB", sans-serif;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+}
+input {
+    outline: medium none;
+    padding: 8px 12px;
+    border: 1px solid #d9d9d9;
+    font-family: "微软雅黑";
+}
+i,em{
+    font-style: inherit;
+}
+.clear-fix {
+    overflow: hidden;
+}
+
+.clear::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.clear-fix::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+
+
+
+

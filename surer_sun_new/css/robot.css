@@ -1,0 +1,15 @@
+/*手机导航*/
+/*#nav_mobile{display: none;}*/
+
+/*广告*/
+#adv_robot{background: url('../img/adv_robot.png') no-repeat center;background-size: cover;}
+
+/*产品特色*/
+#productChara{background-color: #373d4b;color: #fff;overflow: hidden;height: 600px;}
+#productChara .surer-columns{padding-bottom: 0;}
+#productChara .product_img{position: relative;top:-160px;}
+
+/*产品目标*/
+#goal{background-color: #07b0ac;color: #fff;}
+
+
